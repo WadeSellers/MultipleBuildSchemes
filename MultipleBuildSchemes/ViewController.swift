@@ -10,15 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+	@IBOutlet weak var demoLabel: UILabel!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+
+		demoLabel.text = "Demo Label For Scheme 1"
 	}
 
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
-	}
 
 
 }
